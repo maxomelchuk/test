@@ -1,0 +1,23 @@
+{
+  "name": "dgtl_union",
+  "version": "1.0.0",
+  "description": "test",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Maxim Omelchuk",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "express": "^4.18.2",
+    "express-validation": "^4.1.0",
+    "node-csv": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
