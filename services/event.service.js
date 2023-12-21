@@ -14,8 +14,6 @@ class EventService {
     return records;
   }
 
-  getUniqSessions() {}
-
   async getCTR(date) {
     const fileRequests = [];
     const fileNames = await this.getFileNames();
